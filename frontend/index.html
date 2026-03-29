@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blob Arena</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background: #0f0f0f;
+            color: #eee;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+            color: #aaa;
+            letter-spacing: 2px;
+        }
+
+        #arena-wrapper {
+            position: relative;
+            width: 800px;
+            height: 600px;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: 1px solid #333;
+        }
+
+        #stats {
+            margin-top: 14px;
+            display: flex;
+            gap: 32px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        #stats span { color: #ddd; }
+
+        #checkpoint {
+            margin-top: 8px;
+            font-size: 0.75rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>BLOB ARENA</h1>
+
+    <div id="arena-wrapper">
+        <canvas id="heatmap-canvas" width="800" height="600"></canvas>
+        <canvas id="arena-canvas"   width="800" height="600"></canvas>
+    </div>
+
+    <div id="stats">
+        Reward: <span id="stat-reward">0</span>
+        &nbsp;|&nbsp;
+        Catches: <span id="stat-catches">0</span>
+        &nbsp;|&nbsp;
+        Prey left: <span id="stat-prey">0</span>
+        &nbsp;|&nbsp;
+        Steps: <span id="stat-steps">0</span>
+    </div>
+
+    <div id="checkpoint">checkpoint: —</div>
+
+    <script src="heatmap.js"></script>
+    <script src="arena.js"></script>
+</body>
+</html>
