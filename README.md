@@ -4,10 +4,7 @@ A Deep Q-Network (DQN) reinforcement learning project where an AI agent learns t
 
 ![Tech Stack](https://img.shields.io/badge/PyTorch-DQN-orange) ![FastAPI](https://img.shields.io/badge/FastAPI-WebSocket-green) ![Frontend](https://img.shields.io/badge/Frontend-Vanilla_JS-yellow)
 
-Demo here:
-https://github.com/user-attachments/assets/9dc8d5b3-17ea-432d-8078-e42b7de14843
-
-
+![Demo](assets/demo.gif)
 
 ## Overview
 
