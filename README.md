@@ -1,4 +1,4 @@
-# DeepRL — Blob Arena
+# DeepRL — DQN Hunter
 
 A Deep Q-Network (DQN) reinforcement learning project where an AI agent learns to hunt prey in a 2D arena. Train the agent and watch it play in real-time through a browser-based visualizer.
 
