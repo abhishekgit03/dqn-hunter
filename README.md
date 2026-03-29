@@ -4,6 +4,11 @@ A Deep Q-Network (DQN) reinforcement learning project where an AI agent learns t
 
 ![Tech Stack](https://img.shields.io/badge/PyTorch-DQN-orange) ![FastAPI](https://img.shields.io/badge/FastAPI-WebSocket-green) ![Frontend](https://img.shields.io/badge/Frontend-Vanilla_JS-yellow)
 
+Demo here:
+https://github.com/user-attachments/assets/9dc8d5b3-17ea-432d-8078-e42b7de14843
+
+
+
 ## Overview
 
 The agent navigates an 800×600 arena trying to catch 50 intelligent prey. Prey exhibit flocking behavior — they flee from the agent, separate from neighbors, and bounce off walls. The agent uses a neural network to map observations to actions and learns through trial and error.
